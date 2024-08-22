@@ -7,11 +7,7 @@ from mlxtend.plotting import plot_decision_regions
 
 # Load the dataset (assuming 'student_placement_data.csv' is available)
 ds = pd.read_csv('student_placement_data.csv')
-
-# Plot the data (optional)
-sns.scatterplot(x=ds['cgpa'], y=ds['score'], data=ds, hue='placed')
-plt.show()
-
+ 
 # Define features and target
 X = ds.iloc[:, :-1]
 y = ds['placed']

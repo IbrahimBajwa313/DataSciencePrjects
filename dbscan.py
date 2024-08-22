@@ -8,7 +8,7 @@ import seaborn as sns
 x,y = make_moons(n_samples=300, noise=0.5 )
 
 # df = {"data1":x[:,-1 ] }
-print(x[:,0 ])
+print(y)
 
 # DBSCAN parameters
 epsilon = 0.3
